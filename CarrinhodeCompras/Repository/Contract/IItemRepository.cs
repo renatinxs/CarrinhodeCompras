@@ -1,7 +1,7 @@
 ﻿using CarrinhodeCompras.Models;
 namespace CarrinhodeCompras.Repository.Contract
 {
-    public interface IItemrepository
+    public interface IItemRepository 
     {
         //CRUD
 

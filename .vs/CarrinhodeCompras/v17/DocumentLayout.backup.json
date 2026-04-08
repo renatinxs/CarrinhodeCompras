@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\3MTEC\\Desktop\\CarrinhodeCompras\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3280F805-974C-499D-B59D-3B92B2DEE849}|CarrinhodeCompras\\CarrinhodeCompras.csproj|c:\\users\\3mtec\\desktop\\carrinhodecompras\\carrinhodecompras\\models\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3280F805-974C-499D-B59D-3B92B2DEE849}|CarrinhodeCompras\\CarrinhodeCompras.csproj|solutionrelative:carrinhodecompras\\models\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3280F805-974C-499D-B59D-3B92B2DEE849}|CarrinhodeCompras\\CarrinhodeCompras.csproj|c:\\users\\3mtec\\desktop\\carrinhodecompras\\carrinhodecompras\\repository\\contract\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3280F805-974C-499D-B59D-3B92B2DEE849}|CarrinhodeCompras\\CarrinhodeCompras.csproj|solutionrelative:carrinhodecompras\\repository\\contract\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,12 +15,12 @@
       "RelativeMoniker": "D:0:0:{3280F805-974C-499D-B59D-3B92B2DEE849}|CarrinhodeCompras\\CarrinhodeCompras.csproj|solutionrelative:carrinhodecompras\\repository\\contract\\ilivrorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3280F805-974C-499D-B59D-3B92B2DEE849}|CarrinhodeCompras\\CarrinhodeCompras.csproj|c:\\users\\3mtec\\desktop\\carrinhodecompras\\carrinhodecompras\\views\\livros\\cadlivro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3280F805-974C-499D-B59D-3B92B2DEE849}|CarrinhodeCompras\\CarrinhodeCompras.csproj|solutionrelative:carrinhodecompras\\views\\livros\\cadlivro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3280F805-974C-499D-B59D-3B92B2DEE849}|CarrinhodeCompras\\CarrinhodeCompras.csproj|c:\\users\\3mtec\\desktop\\carrinhodecompras\\carrinhodecompras\\models\\itens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3280F805-974C-499D-B59D-3B92B2DEE849}|CarrinhodeCompras\\CarrinhodeCompras.csproj|solutionrelative:carrinhodecompras\\models\\itens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3280F805-974C-499D-B59D-3B92B2DEE849}|CarrinhodeCompras\\CarrinhodeCompras.csproj|c:\\users\\3mtec\\desktop\\carrinhodecompras\\carrinhodecompras\\views\\livros\\cadlivro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3280F805-974C-499D-B59D-3B92B2DEE849}|CarrinhodeCompras\\CarrinhodeCompras.csproj|solutionrelative:carrinhodecompras\\views\\livros\\cadlivro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3280F805-974C-499D-B59D-3B92B2DEE849}|CarrinhodeCompras\\CarrinhodeCompras.csproj|c:\\users\\3mtec\\desktop\\carrinhodecompras\\carrinhodecompras\\repository\\emprestimorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,32 +75,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\3MTEC\\Desktop\\CarrinhodeCompras\\CarrinhodeCompras\\Models\\ItemRepository.cs",
+              "RelativeDocumentMoniker": "CarrinhodeCompras\\Models\\ItemRepository.cs",
+              "ToolTip": "C:\\Users\\3MTEC\\Desktop\\CarrinhodeCompras\\CarrinhodeCompras\\Models\\ItemRepository.cs",
+              "RelativeToolTip": "CarrinhodeCompras\\Models\\ItemRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAjwCYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T11:04:27.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "IItemrepository.cs",
               "DocumentMoniker": "C:\\Users\\3MTEC\\Desktop\\CarrinhodeCompras\\CarrinhodeCompras\\Repository\\Contract\\IItemrepository.cs",
               "RelativeDocumentMoniker": "CarrinhodeCompras\\Repository\\Contract\\IItemrepository.cs",
               "ToolTip": "C:\\Users\\3MTEC\\Desktop\\CarrinhodeCompras\\CarrinhodeCompras\\Repository\\Contract\\IItemrepository.cs",
               "RelativeToolTip": "CarrinhodeCompras\\Repository\\Contract\\IItemrepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-07T12:15:50.256Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CadLivro.cshtml",
               "DocumentMoniker": "C:\\Users\\3MTEC\\Desktop\\CarrinhodeCompras\\CarrinhodeCompras\\Views\\Livros\\CadLivro.cshtml",
               "RelativeDocumentMoniker": "CarrinhodeCompras\\Views\\Livros\\CadLivro.cshtml",
               "ToolTip": "C:\\Users\\3MTEC\\Desktop\\CarrinhodeCompras\\CarrinhodeCompras\\Views\\Livros\\CadLivro.cshtml",
               "RelativeToolTip": "CarrinhodeCompras\\Views\\Livros\\CadLivro.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACoAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-07T11:30:01.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-07T11:30:01.565Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\3MTEC\\Desktop\\CarrinhodeCompras\\CarrinhodeCompras\\Views\\Livros\\Index.cshtml",
               "RelativeDocumentMoniker": "CarrinhodeCompras\\Views\\Livros\\Index.cshtml",
@@ -108,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "LivrosController.cs",
               "DocumentMoniker": "C:\\Users\\3MTEC\\Desktop\\CarrinhodeCompras\\CarrinhodeCompras\\Controllers\\LivrosController.cs",
               "RelativeDocumentMoniker": "CarrinhodeCompras\\Controllers\\LivrosController.cs",
@@ -120,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "GerenciadorArquivo.cs",
               "DocumentMoniker": "C:\\Users\\3MTEC\\Desktop\\CarrinhodeCompras\\CarrinhodeCompras\\GerenciaArquivos\\GerenciadorArquivo.cs",
               "RelativeDocumentMoniker": "CarrinhodeCompras\\GerenciaArquivos\\GerenciadorArquivo.cs",
@@ -132,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "LivroRepository.cs",
               "DocumentMoniker": "C:\\Users\\3MTEC\\Desktop\\CarrinhodeCompras\\CarrinhodeCompras\\Repository\\LivroRepository.cs",
               "RelativeDocumentMoniker": "CarrinhodeCompras\\Repository\\LivroRepository.cs",
@@ -144,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "EmprestimoRepository.cs",
               "DocumentMoniker": "C:\\Users\\3MTEC\\Desktop\\CarrinhodeCompras\\CarrinhodeCompras\\Repository\\EmprestimoRepository.cs",
               "RelativeDocumentMoniker": "CarrinhodeCompras\\Repository\\EmprestimoRepository.cs",
@@ -152,12 +168,11 @@
               "RelativeToolTip": "CarrinhodeCompras\\Repository\\EmprestimoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T11:19:56.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T11:19:56.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ILivroRepository.cs",
               "DocumentMoniker": "C:\\Users\\3MTEC\\Desktop\\CarrinhodeCompras\\CarrinhodeCompras\\Repository\\Contract\\ILivroRepository.cs",
               "RelativeDocumentMoniker": "CarrinhodeCompras\\Repository\\Contract\\ILivroRepository.cs",
@@ -178,12 +193,11 @@
               "RelativeToolTip": "CarrinhodeCompras\\Models\\Itens.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T12:27:05.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T12:27:05.99Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\3MTEC\\Desktop\\CarrinhodeCompras\\CarrinhodeCompras\\Program.cs",
               "RelativeDocumentMoniker": "CarrinhodeCompras\\Program.cs",
@@ -195,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "IEmprestimoRepository.cs",
               "DocumentMoniker": "C:\\Users\\3MTEC\\Desktop\\CarrinhodeCompras\\CarrinhodeCompras\\Repository\\Contract\\IEmprestimoRepository.cs",
               "RelativeDocumentMoniker": "CarrinhodeCompras\\Repository\\Contract\\IEmprestimoRepository.cs",
@@ -207,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Emprestimo.cs",
               "DocumentMoniker": "C:\\Users\\3MTEC\\Desktop\\CarrinhodeCompras\\CarrinhodeCompras\\Models\\Emprestimo.cs",
               "RelativeDocumentMoniker": "CarrinhodeCompras\\Models\\Emprestimo.cs",
@@ -219,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Livro.cs",
               "DocumentMoniker": "C:\\Users\\3MTEC\\Desktop\\CarrinhodeCompras\\CarrinhodeCompras\\Models\\Livro.cs",
               "RelativeDocumentMoniker": "CarrinhodeCompras\\Models\\Livro.cs",
@@ -231,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\3MTEC\\Desktop\\CarrinhodeCompras\\CarrinhodeCompras\\appsettings.json",
               "RelativeDocumentMoniker": "CarrinhodeCompras\\appsettings.json",
