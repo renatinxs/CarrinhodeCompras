@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\3MTEC\\Desktop\\CarrinhodeCompras\\CarrinhodeCompras\\CarrinhodeCompras.csproj": {}
+    "C:\\Users\\3mtec\\Desktop\\Nova pasta\\CarrinhodeCompras\\CarrinhodeCompras.csproj": {}
   },
   "projects": {
-    "C:\\Users\\3MTEC\\Desktop\\CarrinhodeCompras\\CarrinhodeCompras\\CarrinhodeCompras.csproj": {
+    "C:\\Users\\3mtec\\Desktop\\Nova pasta\\CarrinhodeCompras\\CarrinhodeCompras.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\3MTEC\\Desktop\\CarrinhodeCompras\\CarrinhodeCompras\\CarrinhodeCompras.csproj",
+        "projectUniqueName": "C:\\Users\\3mtec\\Desktop\\Nova pasta\\CarrinhodeCompras\\CarrinhodeCompras.csproj",
         "projectName": "CarrinhodeCompras",
-        "projectPath": "C:\\Users\\3MTEC\\Desktop\\CarrinhodeCompras\\CarrinhodeCompras\\CarrinhodeCompras.csproj",
-        "packagesPath": "C:\\Users\\3MTEC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\3MTEC\\Desktop\\CarrinhodeCompras\\CarrinhodeCompras\\obj\\",
+        "projectPath": "C:\\Users\\3mtec\\Desktop\\Nova pasta\\CarrinhodeCompras\\CarrinhodeCompras.csproj",
+        "packagesPath": "C:\\Users\\3mtec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\3mtec\\Desktop\\Nova pasta\\CarrinhodeCompras\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\3MTEC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\3mtec\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,10 +26,12 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -44,19 +46,16 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[8.0.23, )"
-            },
             "MySql.Data": {
               "target": "Package",
-              "version": "[9.6.0, )"
+              "version": "[9.7.0, )"
             }
           },
           "imports": [
@@ -78,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

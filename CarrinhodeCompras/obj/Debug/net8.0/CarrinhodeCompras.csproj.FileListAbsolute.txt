@@ -244,3 +244,16 @@ C:\Users\3MTEC\Desktop\CarrinhodeCompras\CarrinhodeCompras\obj\Debug\net8.0\refi
 C:\Users\3MTEC\Desktop\CarrinhodeCompras\CarrinhodeCompras\obj\Debug\net8.0\CarrinhodeCompras.pdb
 C:\Users\3MTEC\Desktop\CarrinhodeCompras\CarrinhodeCompras\obj\Debug\net8.0\CarrinhodeCompras.genruntimeconfig.cache
 C:\Users\3MTEC\Desktop\CarrinhodeCompras\CarrinhodeCompras\obj\Debug\net8.0\ref\CarrinhodeCompras.dll
+C:\Users\3mtec\Desktop\Nova pasta\CarrinhodeCompras\obj\Debug\net8.0\CarrinhodeCompras.csproj.AssemblyReference.cache
+C:\Users\3mtec\Desktop\Nova pasta\CarrinhodeCompras\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\3mtec\Desktop\Nova pasta\CarrinhodeCompras\obj\Debug\net8.0\CarrinhodeCompras.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\3mtec\Desktop\Nova pasta\CarrinhodeCompras\obj\Debug\net8.0\CarrinhodeCompras.AssemblyInfoInputs.cache
+C:\Users\3mtec\Desktop\Nova pasta\CarrinhodeCompras\obj\Debug\net8.0\CarrinhodeCompras.AssemblyInfo.cs
+C:\Users\3mtec\Desktop\Nova pasta\CarrinhodeCompras\obj\Debug\net8.0\CarrinhodeCompras.csproj.CoreCompileInputs.cache
+C:\Users\3mtec\Desktop\Nova pasta\CarrinhodeCompras\obj\Debug\net8.0\CarrinhodeCompras.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\3mtec\Desktop\Nova pasta\CarrinhodeCompras\obj\Debug\net8.0\CarrinhodeCompras.RazorAssemblyInfo.cache
+C:\Users\3mtec\Desktop\Nova pasta\CarrinhodeCompras\obj\Debug\net8.0\CarrinhodeCompras.RazorAssemblyInfo.cs
+C:\Users\3mtec\Desktop\Nova pasta\CarrinhodeCompras\obj\Debug\net8.0\CarrinhodeCompras.sourcelink.json
+C:\Users\3mtec\Desktop\Nova pasta\CarrinhodeCompras\obj\Debug\net8.0\CarrinhodeCompras.dll
+C:\Users\3mtec\Desktop\Nova pasta\CarrinhodeCompras\obj\Debug\net8.0\refint\CarrinhodeCompras.dll
+C:\Users\3mtec\Desktop\Nova pasta\CarrinhodeCompras\obj\Debug\net8.0\CarrinhodeCompras.pdb
