@@ -1,32 +1,101 @@
 using System.Diagnostics;
+using CarrinhodeCompras.CarrinhoCompra;
 using CarrinhodeCompras.Models;
+using CarrinhodeCompras.Repository.Contract;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CarrinhodeCompras.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+       private IItemRepository _itemRepository;
+       private IEmprestimoRepository _emprestimoRepository;
+       private CookieCarrinhoCompra _cookieCarrinhoCompra;
+       private ILivroRepository _livroRepository;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILivroRepository livroRepository, CookieCarrinhoCompra cookieCarrinhoCompra,
+                               IEmprestimoRepository emprestimoRepository, IItemRepository itemRepository)
         {
-            _logger = logger;
+            _livroRepository = livroRepository;
+            _cookieCarrinhoCompra = cookieCarrinhoCompra;
+            _emprestimoRepository = emprestimoRepository;
+            _itemRepository = itemRepository;
         }
 
         public IActionResult Index()
         {
-            return View();
+            return View(_livroRepository.ObterTodosLivros());
         }
 
-        public IActionResult Privacy()
+        //Item ID = ID Produto
+        public IActionResult AdicionarItem(int id)
         {
-            return View();
+            Livro produto = _livroRepository.ObterLivros(id);
+
+            if (produto == null)
+            {
+                return View("NaoExisteItem");
+            }
+            else
+            {
+                var item = new Livro()
+                {
+                    codLivro = id,
+                    quantidade = 1,
+                    imagemLivro = produto.imagemLivro,
+                    nomeLivro = produto.nomeLivro
+                };
+                _cookieCarrinhoCompra.Cadastrar(item);
+
+                return RedirectToAction(nameof(Carrinho));
+            }
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        //Carrinho de compra
+        public IActionResult Carrinho()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(_cookieCarrinhoCompra.Consultar());
+        }
+
+        //Remover itens do carrinho
+        public IActionResult RemoverItem(int id)
+        {
+            _cookieCarrinhoCompra.Remover(new Livro() { codLivro = id });
+            return RedirectToAction(nameof(Carrinho));
+        }
+
+        DateTime data;
+
+        public IActionResult SalvarCarrinho(Emprestimo emprestimo)
+        {
+            List<Livro> carrinho = _cookieCarrinhoCompra.Consultar();
+
+            Emprestimo mdE = new Emprestimo();
+            Itens mdI = new Itens();
+
+            data = DateTime.Now.ToLocalTime();
+
+            mdE.dtEmpre = data.ToString("dd/MM/yyyy");
+            mdE.dtDev = data.AddDays(7).ToString();
+            mdE.codUsu = "1";
+            _emprestimoRepository.Cadastrar(mdE);
+            _emprestimoRepository.buscaIdEmp(emprestimo);
+
+            for (int i = 0; i < carrinho.Count; i++) 
+            {
+                mdI.codEmp = Convert.ToInt32(emprestimo.codEmp);
+                mdI.codLivro = Convert.ToString(carrinho[i].codLivro);
+
+                _itemRepository.Cadastrar(mdI);
+            }
+
+            _cookieCarrinhoCompra.RemoverTodos();
+            return RedirectToAction("confEmp");
+        }
+
+        public IActionResult confEmp()
+        {
+            return View();
         }
     }
 }
