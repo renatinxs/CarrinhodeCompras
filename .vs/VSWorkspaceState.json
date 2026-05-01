@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CarrinhodeCompras",
+    "\\CarrinhodeCompras\\CarrinhoCompra",
+    "\\CarrinhodeCompras\\Cookie",
+    "\\CarrinhodeCompras\\Models",
+    "\\CarrinhodeCompras\\Repository",
+    "\\CarrinhodeCompras\\Repository\\Contract",
+    "\\CarrinhodeCompras\\Views",
+    "\\CarrinhodeCompras\\Views\\Home",
+    "\\CarrinhodeCompras\\Views\\Livros"
+  ],
+  "SelectedNode": "\\CarrinhodeCompras\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}
