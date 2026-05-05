@@ -31,5 +31,26 @@ namespace CarrinhodeCompras.Controllers
 
             
         }
+
+     
+        public IActionResult CadLivro()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult CadLivro(Livro livro, IFormFile file)
+        {
+            var Caminho = GerenciadorArquivo.CadastrarImagemProduto(file);
+
+            livro.imagemLivro = Caminho;
+
+            _livroRepository.Cadastrar(livro);
+
+            ViewBag.msg = "Cadastro realizado";
+            return View();
+
+
+
+        }
     }
 }
